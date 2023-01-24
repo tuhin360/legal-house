@@ -117,9 +117,15 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(225,226,225,0) 0%, r
     
 }
 
+/* contact css */
 
-
-
+.contact-header h2 {
+    font-family: "EB Garamond";
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 120px;
+  
+  }
 
 
 
@@ -143,17 +149,7 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(225,226,225,0) 0%, r
      
   }
 
-  /* .question-header{
-    width: 100%;
-    padding-right: 20px;
-}
-
-
-  .question-body{
-    width: 100%;
-   
-     
-} */
+ 
 
   .question-body .question-img img{
     width: 300px;
@@ -162,9 +158,6 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(225,226,225,0) 0%, r
    
 }
 
-
-
-
-
+ 
 
 }
