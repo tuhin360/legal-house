@@ -1,4 +1,4 @@
- /* google font */
+/* google font */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
 body {
@@ -32,7 +32,7 @@ body {
   font-weight: 600;
   font-size: 18px;
 }
- 
+
 .header-banner {
   background-image: url("../images/banner.png");
   position: center;
@@ -41,123 +41,113 @@ body {
   width: 100%;
   height: 550px;
   margin-top: 50px;
-  
 }
 
 .header-banner h1 {
-    font-family: "EB Garamond";
-    font-weight: 800;
-    font-size: 60px;
-  
-  }
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 60px;
+}
 .header-title p {
-    font-weight: 400;
-    font-size: 16px; 
-  }
+  font-weight: 400;
+  font-size: 16px;
+}
 
- 
 /* legal section css */
 
 .legal-header h2 {
-    font-family: "EB Garamond";
-    font-weight: 800;
-    font-size: 40px;
-    margin-top: 120px;
-  
-  }
-
-.cad img{
-    height: 72px;
-width: 72px;
-text-align: center;
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 120px;
 }
 
-.grad-card{
-    background: rgb(2,0,36);
-background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(225,226,225,0) 0%, rgba(206,156,155,1) 100%, rgba(201,138,139,1) 100%, rgba(182,60,71,1) 100%, rgba(0,212,255,1) 100%);
+.cad img {
+  height: 72px;
+  width: 72px;
+  text-align: center;
 }
 
+.grad-card {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    355deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(225, 226, 225, 0) 0%,
+    rgba(206, 156, 155, 1) 100%,
+    rgba(201, 138, 139, 1) 100%,
+    rgba(182, 60, 71, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 
 /* client section css */
 .client-header h2 {
-    font-family: "EB Garamond";
-    font-weight: 800;
-    font-size: 40px;
-    margin-top: 120px;
-  
-  }
- 
-  .carousel-item img{
-    height: 500px;
-    width: 100%;
-  }
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 120px;
+}
 
- 
+.carousel-item img {
+  height: 500px;
+  width: 100%;
+}
 
-.carousel-caption img{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border: 3px solid #fff ;
+.carousel-caption img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #fff;
 }
 
 /* frequently question css */
 
- .question-header h2 {
-    font-family: "EB Garamond";
-    font-weight: 800;
-    font-size: 40px;
-    margin-top: 120px;
-  
-  }
+.question-header h2 {
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 120px;
+}
 
-.question-body .question-img img{
-    width: 480px;
-    height: 500px;
-    
+.question-body .question-img img {
+  width: 480px;
+  height: 500px;
 }
 
 /* contact css */
 
 .contact-header h2 {
-    font-family: "EB Garamond";
-    font-weight: 800;
-    font-size: 40px;
-    margin-top: 120px;
-  
-  }
-
-
-
-
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 120px;
+}
 
 /* responsive */
 @media screen and (max-width: 556px) {
   .header-banner {
-    width: 100%; 
+    width: 100%;
   }
   .header-banner h1 {
     font-weight: 800;
     font-size: 45px;
   }
 
-
-  .cad{
+  .cad {
     width: 100%;
-    margin-top:25px;
+    margin-top: 25px;
     border: 1px solid gray;
-     
   }
 
- 
-
-  .question-body .question-img img{
+  .question-body .question-img img {
     width: 300px;
     height: 280px;
     padding: 10px;
-   
-}
+  }
 
- 
-
+  .c-info {
+    display: flex;
+    flex-direction: column;
+  }
 }
