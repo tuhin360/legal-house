@@ -1,4 +1,6 @@
-/* google font */
+/*------------
+  google font 
+  ------------*/
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
 body {
@@ -7,7 +9,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* header css */
+/* -----------------
+   header css
+   ----------------- */
 
 .navbar-nav {
   padding-left: 15%;
@@ -53,7 +57,9 @@ body {
   font-size: 16px;
 }
 
-/* legal section css */
+/* ------------------
+   legal section css
+   ------------------ */
 
 .legal-header h2 {
   font-family: "EB Garamond";
@@ -81,7 +87,9 @@ body {
   );
 }
 
-/* client section css */
+/* -------------------
+   client section css
+   ------------------- */
 .client-header h2 {
   font-family: "EB Garamond";
   font-weight: 800;
@@ -101,7 +109,9 @@ body {
   border: 3px solid #fff;
 }
 
-/* frequently question css */
+/* ------------------------
+   frequently question css
+   ------------------------ */
 
 .question-header h2 {
   font-family: "EB Garamond";
@@ -115,7 +125,9 @@ body {
   height: 500px;
 }
 
-/* contact css */
+/* ------------
+   contact css
+   ------------ */
 
 .contact-header h2 {
   font-family: "EB Garamond";
@@ -124,19 +136,39 @@ body {
   margin-top: 120px;
 }
 
-/* justice css */
-.justice-header{
-    margin-top: 120px;
+/* -----------
+   justice css
+   ----------- */
+.justice-header {
+  margin-top: 120px;
 }
 .justice-header h2 {
-    font-family: "EB Garamond";
-    font-weight: 800;
-    font-size: 40px;
-  
-    
-  }
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 40px;
+}
 
-/* responsive */
+/* -----------
+   footer css
+   ----------- */
+footer .footer-img img {
+  height: 40px;
+  width: 150px;
+}
+
+footer h5 {
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.arrow {
+  margin-left: -65px;
+}
+
+/* ---------------------
+   responsive for Mobile
+   ---------------------*/
 @media screen and (max-width: 556px) {
   .header-banner {
     width: 100%;
@@ -146,6 +178,7 @@ body {
     font-size: 45px;
   }
 
+ 
   .cad {
     width: 100%;
     margin-top: 25px;
@@ -161,5 +194,9 @@ body {
   .c-info {
     display: flex;
     flex-direction: column;
+  }
+
+  .footer-mail {
+    margin-left: 15%;
   }
 }
