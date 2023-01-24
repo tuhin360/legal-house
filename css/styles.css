@@ -124,6 +124,18 @@ body {
   margin-top: 120px;
 }
 
+/* justice css */
+.justice-header{
+    margin-top: 120px;
+}
+.justice-header h2 {
+    font-family: "EB Garamond";
+    font-weight: 800;
+    font-size: 40px;
+  
+    
+  }
+
 /* responsive */
 @media screen and (max-width: 556px) {
   .header-banner {
