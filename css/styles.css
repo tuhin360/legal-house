@@ -1,4 +1,4 @@
-/* google font */
+ /* google font */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
 body {
@@ -101,6 +101,25 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(225,226,225,0) 0%, r
     border: 3px solid #fff ;
 }
 
+/* frequently question css */
+
+ .question-header h2 {
+    font-family: "EB Garamond";
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 120px;
+  
+  }
+
+.question-body .question-img img{
+    width: 480px;
+    height: 500px;
+    
+}
+
+
+
+
 
 
 
@@ -121,5 +140,31 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(225,226,225,0) 0%, r
     width: 100%;
     margin-top:25px;
     border: 1px solid gray;
+     
   }
+
+  /* .question-header{
+    width: 100%;
+    padding-right: 20px;
+}
+
+
+  .question-body{
+    width: 100%;
+   
+     
+} */
+
+  .question-body .question-img img{
+    width: 300px;
+    height: 280px;
+    padding: 10px;
+   
+}
+
+
+
+
+
+
 }
