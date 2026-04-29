@@ -1,6 +1,15 @@
+<div align="center">
+
+<!-- Cover Image -->
+<img src="https://i.ibb.co.com/v4Z3qG8t/legal-house.png" alt="Legal House Cover" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" />
+
 # ⚖️ Legal House
 
 A clean and informative static website providing an overview of various fields of law. This project serves as a digital resource for understanding different legal sectors, including Criminal Law, Tax Law, Divorce Law, and more.
+
+</div>
+
+---
 
 ## 🚀 Features
 
